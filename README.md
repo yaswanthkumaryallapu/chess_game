@@ -7,7 +7,7 @@ If you are using python idle then download the the three libraries in commond pr
 >>pip install sys
 run the game
 
-vscode:
+**vscode:**
 if you are using vscode idle these are following steps :
 1.open terminal in vscode
 2.>>pip install pygame
