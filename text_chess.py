@@ -39,22 +39,22 @@ def play_game():
             print("Checkmate!")
             winner = "White" if board.turn == chess.BLACK else "Black"
             print(f"{winner} wins!")
-            break  
+            break  # Exit the loop since the game is over
         elif board.is_stalemate():
             print("Stalemate!")
-            break  
+            break  # Exit the loop since the game is over
         elif board.is_insufficient_material():
             print("Draw due to insufficient material.")
-            break 
+            break  # Exit the loop since the game is over
         elif board.is_seventyfive_moves():
             print("Draw due to 75-move rule.")
-            break
+            break  # Exit the loop since the game is over
         elif board.is_fivefold_repetition():
             print("Draw due to fivefold repetition.")
-            break  
+            break  # Exit the loop since the game is over
         elif board.is_variant_draw():
             print("Draw.")
-            break 
+            break  # Exit the loop since the game is over
 
 # Run the game
 if __name__ == "__main__":
